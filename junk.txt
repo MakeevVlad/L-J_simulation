@@ -1,0 +1,19 @@
+/*
+  if (t == 0) {title(p, q); collect(p);}
+  float dx = p.x() - q.x;
+  float dy = p.y() - q.y;
+  ax = (k * p.q() * q.q / p.m()) * ( dx / pow(sqrt(dx*dx + dy*dy), 3) );
+  ay = (k * p.q() * q.q / p.m()) * ( dy / pow(sqrt(dx*dx + dy*dy), 3) );
+*/
+
+//Creating supershort abstract of current simulation
+/*
+void title(Particle p, stch q)
+{
+  std::ofstream file("data.txt");
+  file << "Particle info:\t"<< "mass: " << p.m() <<"\tCharge: "<< p.q();
+  file <<"\tVelosity: ( "<<p.vx()<<", "<<p.vy()<<" )\t\tPosition: ( " << p.x()<<", "<<p.y()<<" )\n";
+  file <<"Static charge info:\t"<<"Charge: "<<q.q<<" Position: ("<<q.x<<", "<<q.y<<" )\n";
+  file.close();
+}
+*/
